@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С 8 марта, мама!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #FFE55C; /* Яркий жёлтый фон */
+            font-family: 'Arial', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #d44e8c;
+            font-size: 2.5em;
+            margin: 20px 0;
+            text-shadow: 2px 2px 0 #FFB6C1;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .greeting {
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .kittens-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .kitten-card {
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            width: 200px;
+        }
+        
+        .kitten-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .kitten-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #FFB6C1;
+            margin-bottom: 10px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .card h1 {
+            font-size: 3em;
+            margin: 10px 0;
+        }
+        
+        .card p {
+            font-size: 1.3em;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .flowers {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            color: #d44e8c;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌸 С 8 марта, любимая мама! 🌸</h1>
+        
+        <div class="greeting">
+            <p style="font-size: 1.3em; color: #d44e8c;">привет, моми! ❤️</p>
+        </div>
+        
+        <!-- Галерея с котиками -->
+        <h2 style="color: #d44e8c; margin: 20px 0;">Милые котики для тебя 🐱</h2>
+        <div class="kittens-gallery">
+            <div class="kitten-card">
+                <img class="kitten-img" src="https://i.pinimg.com/736x/39/5a/66/395a66bd51174dca48f96899202344b5.jpg" alt="Рыжий котик">
+                <p style="color: #666;">Самый ласковый 😊</p>
+            </div>
+            <div class="kitten-card">
+                <img class="kitten-img" src="https://i.pinimg.com/736x/71/46/21/714621b9d5e2de203ff812103a4d3cb5.jpg" alt="Серый котик">
+                <p style="color: #666;">С весенним настроением! 🌷</p>
+            </div>
+            <div class="kitten-card">
+                <img class="kitten-img" src="https://i.pinimg.com/736x/6c/df/6f/6cdf6f871a07b5042bf58c8af6c43493.jpg" alt="Белый котик">
+                <p style="color: #666;">Счастья и радости! 🎈</p>
+            </div>
+        </div>
+        
+        <!-- Основная карточка с поздравлением -->
+        <div class="card">
+            <h1>💝 MAMA 💝</h1>
+            <p>я тебя сильно люблю, моми!</p>
+            <p style="margin-top: 15px; font-size: 1.1em;">Ты самая лучшая мама на свете!</p>
+            <p style="font-size: 2em; margin-top: 15px;">(❁´◡`❁)</p>
+        </div>
+        
+        <!-- Дополнительные пожелания -->
+        <div style="background: rgba(255,255,255,0.5); border-radius: 10px; padding: 15px; margin: 20px 0;">
+            <p style="font-size: 1.2em; color: #b3416b;">Пусть каждый день будет таким же тёплым и солнечным, как этот жёлтый фон! ☀️</p>
+        </div>
+        
+        <div class="footer">
+            С любовью, твой ребёнок ❤️
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
